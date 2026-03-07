@@ -37,11 +37,11 @@ export interface ListTrendingReposRequest {
 }
 
 export interface ListTrendingReposResponse {
-  repos: GithubRepo[];
+  repos: SoftwareRepo[];
   pagination?: PaginationResponse;
 }
 
-export interface GithubRepo {
+export interface SoftwareRepo {
   fullName: string;
   description: string;
   language: string;

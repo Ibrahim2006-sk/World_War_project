@@ -159,7 +159,7 @@ const Logo = () => (
     </div>
     <div className="flex flex-col">
       <span className="font-display font-bold text-sm leading-none tracking-tight">WORLD MONITOR</span>
-      <span className="text-[9px] text-wm-muted font-mono uppercase tracking-widest leading-none mt-1">by Someone.ceo</span>
+      <span className="text-[9px] text-wm-muted font-mono uppercase tracking-widest leading-none mt-1">Real-time Global Intelligence</span>
     </div>
   </a>
 );
@@ -334,8 +334,8 @@ const SocialProof = () => (
         </p>
         <footer className="mt-6 flex items-center justify-center gap-3">
           <div className="text-sm">
-            <span className="text-wm-text font-bold">Elie Habib</span>
-            <span className="text-wm-muted"> — {t('socialProof.ceo')} </span>
+            <span className="text-wm-text font-bold">SHAIKH ibrahim</span>
+            <span className="text-wm-muted"> — Dashboard Creators </span>
             <a href="https://anghami.com" target="_blank" rel="noreferrer" className="text-wm-muted underline underline-offset-4 hover:text-wm-text transition-colors">Anghami</a>
             <span className="text-wm-muted">, {t('socialProof.asToldTo')} </span>
             <a href="https://www.wired.me/story/the-music-streaming-ceo-who-built-a-global-war-map" target="_blank" rel="noreferrer" className="text-wm-text underline underline-offset-4 hover:text-wm-green transition-colors">WIRED</a>
@@ -821,9 +821,8 @@ const Footer = () => (
         <Logo />
       </div>
       <div className="flex gap-6">
-        <a href="https://x.com/eliehabib" target="_blank" rel="noreferrer" className="hover:text-wm-text transition-colors">X</a>
-        <a href="https://github.com/koala73/worldmonitor" target="_blank" rel="noreferrer" className="hover:text-wm-text transition-colors">GitHub</a>
-        <a href="https://www.wired.me/story/the-music-streaming-ceo-who-built-a-global-war-map" target="_blank" rel="noreferrer" className="hover:text-wm-text transition-colors">{t('footer.wiredArticle')}</a>
+        <a href="https://x.com/worldmonitorapp" target="_blank" rel="noreferrer" className="hover:text-wm-text transition-colors">X</a>
+        <a href="https://worldmonitor.app" target="_blank" rel="noreferrer" className="hover:text-wm-text transition-colors">Website</a>
       </div>
     </div>
   </footer>

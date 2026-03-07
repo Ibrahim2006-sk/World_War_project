@@ -200,7 +200,6 @@ const TECH_PANELS: Record<string, PanelConfig> = {
   hardware: { name: 'Semiconductors & Hardware', enabled: true, priority: 2 },
   cloud: { name: 'Cloud & Infrastructure', enabled: true, priority: 2 },
   dev: { name: 'Developer Community', enabled: true, priority: 2 },
-  github: { name: 'GitHub Trending', enabled: true, priority: 1 },
   ipo: { name: 'IPO & SPAC', enabled: true, priority: 2 },
   polymarket: { name: 'Tech Predictions', enabled: true, priority: 2 },
   funding: { name: 'Funding & VC', enabled: true, priority: 1 },
@@ -853,7 +852,7 @@ export const PANEL_CATEGORY_MAP: Record<string, { labelKey: string; panelKeys: s
   // Tech variant
   techAi: {
     labelKey: 'header.panelCatTechAi',
-    panelKeys: ['ai', 'tech', 'hardware', 'cloud', 'dev', 'github', 'producthunt', 'events', 'service-status', 'tech-readiness'],
+    panelKeys: ['ai', 'tech', 'hardware', 'cloud', 'dev', 'producthunt', 'events', 'service-status', 'tech-readiness'],
     variants: ['tech'],
   },
   startupsVc: {

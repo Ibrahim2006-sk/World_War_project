@@ -71,7 +71,7 @@ async function sendConfirmationEmail(email, referralCode, position) {
                   </td>
                   <td style="padding-left: 12px;">
                     <div style="font-size: 16px; font-weight: 800; color: #fff; letter-spacing: -0.5px;">WORLD MONITOR</div>
-                    <div style="font-size: 10px; color: #666; text-transform: uppercase; letter-spacing: 2px;">by Someone.ceo</div>
+                    <div style="font-size: 10px; color: #666; text-transform: uppercase; letter-spacing: 2px;">by SHAIKH ibrahim</div>
                   </td>
                 </tr>
               </table>
@@ -165,8 +165,8 @@ async function sendConfirmationEmail(email, referralCode, position) {
             </div>
             <div style="border-top: 1px solid #1a1a1a; padding: 24px 32px; text-align: center;">
               <div style="margin-bottom: 16px;">
-                <a href="https://x.com/eliehabib" style="color: #666; text-decoration: none; font-size: 12px; margin: 0 12px;">X / Twitter</a>
-                <a href="https://github.com/koala73/worldmonitor" style="color: #666; text-decoration: none; font-size: 12px; margin: 0 12px;">GitHub</a>
+                <a href="https://x.com/worldmonitorapp" style="color: #666; text-decoration: none; font-size: 12px; margin: 0 12px;">X / Twitter</a>
+                <a href="https://github.com/Ibrahim2006-sk/World_War_project" style="color: #666; text-decoration: none; font-size: 12px; margin: 0 12px;">Repository</a>
                 <a href="https://worldmonitor.app/pro" style="color: #666; text-decoration: none; font-size: 12px; margin: 0 12px;">Pro Waitlist</a>
               </div>
               <p style="font-size: 11px; color: #444; margin: 0; line-height: 1.6;">

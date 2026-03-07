@@ -87,7 +87,7 @@ export const TECH_COMPANIES: TechCompany[] = [
     lon: -122.1390,
     employees: 221000,
     foundedYear: 1975,
-    keyProducts: ['Azure', 'Office 365', 'GitHub', 'OpenAI Investment'],
+    keyProducts: ['Azure', 'Office 365', 'OpenAI Investment'],
     stockSymbol: 'MSFT',
     valuation: 3000000000000, // $3T
   },

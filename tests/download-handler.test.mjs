@@ -2,7 +2,7 @@ import { strict as assert } from 'node:assert';
 import test from 'node:test';
 import handler from '../api/download.js';
 
-const RELEASES_PAGE = 'https://github.com/koala73/worldmonitor/releases/latest';
+const RELEASES_PAGE = 'https://worldmonitor.app/download';
 
 function makeGitHubReleaseResponse(assets) {
   return new Response(JSON.stringify({ assets }), {

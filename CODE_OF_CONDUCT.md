@@ -46,8 +46,8 @@ spaces.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the project maintainer at **[GitHub Issues](https://github.com/koala73/worldmonitor/issues)** or by contacting the
-repository owner directly through GitHub.
+reported to the project maintainer at **[Issues](https://github.com/Ibrahim2006-sk/World_War_project/issues)** or by contacting the
+SHAIKH ibrahim at security@worldmonitor.app.
 
 All complaints will be reviewed and investigated promptly and fairly. The project
 team is obligated to maintain confidentiality with regard to the reporter of an

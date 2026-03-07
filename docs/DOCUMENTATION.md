@@ -3314,7 +3314,7 @@ const header = `World Monitor v${__APP_VERSION__}`;
 
 ```bash
 # Clone the repository
-git clone https://github.com/koala73/worldmonitor.git
+git clone https://github.com/Ibrahim2006-sk/World_War_project.git
 cd worldmonitor
 
 # Install everything (buf, sebuf plugins, npm deps, proto deps)
@@ -3883,7 +3883,7 @@ Contributions are welcome! Whether you're fixing bugs, adding features, improvin
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/worldmonitor.git
+   git clone https://github.com/Ibrahim2006-sk/World_War_project.git
    cd worldmonitor
    ```
 3. **Install dependencies**:
@@ -4049,7 +4049,7 @@ MIT
 
 ## Author
 
-**Elie Habib**
+**SHAIKH ibrahim**
 
 ---
 

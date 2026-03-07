@@ -822,9 +822,9 @@ const TECH_FEEDS: Record<string, Feed[]> = {
     { name: 'MENA Startups', url: rss('https://news.google.com/rss/search?q=(MENA+startup+OR+"Middle+East"+funding+OR+Gulf+startup)+when:7d&hl=en-US&gl=US&ceid=US:en') },
     { name: 'MENA Tech News', url: rss('https://news.google.com/rss/search?q=(UAE+startup+OR+Saudi+tech+OR+Dubai+startup+OR+NEOM+tech)+when:7d&hl=en-US&gl=US&ceid=US:en') },
   ],
-  github: [
-    { name: 'GitHub Blog', url: rss('https://github.blog/feed/') },
-    { name: 'GitHub Trending', url: rss('https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml') },
+  osint: [
+    { name: 'OSINT Combined', url: rss('https://news.google.com/rss/search?q=("open-source+intelligence"+OR+"OSINT"+OR+"geolocation"+OR+"satellite+imagery")+when:3d&hl=en-US&gl=US&ceid=US:en') },
+    { name: 'Bellingcat', url: rss('https://news.google.com/rss/search?q=site:bellingcat.com+when:30d&hl=en-US&gl=US&ceid=US:en') },
     { name: 'Show HN', url: rss('https://hnrss.org/show') },
     { name: 'YC Launches', url: rss('https://news.google.com/rss/search?q=("Y+Combinator"+OR+"YC+launch"+OR+"YC+W25"+OR+"YC+S25")+when:7d&hl=en-US&gl=US&ceid=US:en') },
     { name: 'Dev Events', url: rss('https://news.google.com/rss/search?q=("developer+conference"+OR+"tech+summit"+OR+"devcon"+OR+"developer+event")+when:7d&hl=en-US&gl=US&ceid=US:en') },
@@ -846,7 +846,7 @@ const TECH_FEEDS: Record<string, Feed[]> = {
   ],
   outages: [
     { name: 'AWS Status', url: rss('https://news.google.com/rss/search?q=AWS+outage+OR+"Amazon+Web+Services"+down+when:1d&hl=en-US&gl=US&ceid=US:en') },
-    { name: 'Cloud Outages', url: rss('https://news.google.com/rss/search?q=(Azure+OR+GCP+OR+Cloudflare+OR+Slack+OR+GitHub)+outage+OR+down+when:1d&hl=en-US&gl=US&ceid=US:en') },
+    { name: 'Cloud Outages', url: rss('https://news.google.com/rss/search?q=(Azure+OR+GCP+OR+Cloudflare+OR+Slack)+outage+OR+down+when:1d&hl=en-US&gl=US&ceid=US:en') },
   ],
   security: [
     { name: 'Krebs Security', url: rss('https://krebsonsecurity.com/feed/') },
@@ -1194,7 +1194,7 @@ export const SOURCE_REGION_MAP: Record<string, { labelKey: string; feedKeys: str
   aiMl: { labelKey: 'header.sourceRegionAiMl', feedKeys: ['ai'] },
   startupsVc: { labelKey: 'header.sourceRegionStartupsVc', feedKeys: ['startups', 'vcblogs', 'funding', 'unicorns', 'accelerators', 'ipo'] },
   regionalTech: { labelKey: 'header.sourceRegionRegionalTech', feedKeys: ['regionalStartups'] },
-  developer: { labelKey: 'header.sourceRegionDeveloper', feedKeys: ['github', 'cloud', 'dev', 'producthunt', 'outages'] },
+  developer: { labelKey: 'header.sourceRegionDeveloper', feedKeys: ['osint', 'cloud', 'dev', 'producthunt', 'outages'] },
   cybersecurity: { labelKey: 'header.sourceRegionCybersecurity', feedKeys: ['security'] },
   techPolicy: { labelKey: 'header.sourceRegionTechPolicy', feedKeys: ['policy', 'thinktanks'] },
   techMedia: { labelKey: 'header.sourceRegionTechMedia', feedKeys: ['podcasts', 'layoffs', 'finance'] },

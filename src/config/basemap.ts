@@ -28,8 +28,8 @@ export function buildPMTilesStyle(flavor: PMTilesTheme): StyleSpecification | nu
   const spriteName = ['light', 'white'].includes(flavor) ? 'light' : 'dark';
   return {
     version: 8,
-    glyphs: 'https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf',
-    sprite: `https://protomaps.github.io/basemaps-assets/sprites/v4/${spriteName}`,
+    glyphs: 'https://tiles.worldmonitor.app/basemaps-assets/fonts/{fontstack}/{range}.pbf',
+    sprite: `https://tiles.worldmonitor.app/basemaps-assets/sprites/v4/${spriteName}`,
     sources: {
       basemap: {
         type: 'vector',
