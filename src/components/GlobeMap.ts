@@ -416,15 +416,11 @@ export class GlobeMap {
 
     const desktop = isDesktopRuntime();
     const initialScale = getGlobeRenderScale();
-    const initialPixelRatio = desktop
-      ? Math.min(resolveGlobePixelRatio(initialScale), 1.25)
-      : resolveGlobePixelRatio(initialScale);
+    const initialPixelRatio = resolveGlobePixelRatio(initialScale);
     const config: ConfigOptions = {
       animateIn: false,
       rendererConfig: {
-        // Desktop (Tauri/WebView2) can fall back to software rendering on some machines.
-        // Keep defaults conservative to avoid 1fps reports (see #930).
-        powerPreference: desktop ? 'high-performance' : 'default',
+        powerPreference: 'high-performance',
         logarithmicDepthBuffer: !desktop,
         antialias: initialPixelRatio > 1,
       },
